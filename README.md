@@ -7,9 +7,13 @@ code .
 
 ```
 
+> 代码重构
+
 ## 配置
 
 打开命令面板快捷键: `shift + ctrl + p`
+
+## 默认设置
 
 ### 用户设置
 
@@ -23,18 +27,50 @@ code .
 4. 光标所在行的下方插入一行: `ctrl + enter`
 5. 文件夹内查找: `shift + ctrl + f`
 6. 文档格式化: `shift + alt + f`
+7. 切换终端面板: `` ctrl + ` ``
+8. 关闭当前文件: `ctrl + w`
+
+[Keyboard shortcuts for Windows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
+settings.json:
 
 ```json
 {
-  "editor.formatOnSave":true
+  "editor.formatOnSave":true,
+  "editor.minimap.enabled":true,
+  "editor.linkedEditing": true,
+  "files.insertFinalNewline": true 
+
 {
 
 ```
 
 ### 工作区设置
 
+## 调试
+
+配置文件(launch.json):
+
+```json
+{
+  "configurations": [
+    {
+      "name": "Launch Program",
+      "program": "${workspaceFolder}/app.js",
+      "request": "launch",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}
+
+```
 
 ## 扩展插件
+
+> 智能感知、代码片段和Emmet语法
 
 [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
@@ -49,4 +85,9 @@ code .
 [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 [Carbon now sh](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh)
+
+[EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
+
+[Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
+
 
