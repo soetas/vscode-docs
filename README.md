@@ -84,7 +84,7 @@ settings.json:
 
 [LiveServer](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-[Carbon now sh](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh)
+[Carbon Now Sh](https://marketplace.visualstudio.com/items?itemName=ericadamski.carbon-now-sh)
 
 [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
 
