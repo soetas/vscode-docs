@@ -51,7 +51,7 @@ settings.json:
 
 配置文件(launch.json):
 
-```json
+```json5
 {
   "configurations": [
     {
@@ -72,6 +72,21 @@ settings.json:
 
 > 智能感知、代码片段和Emmet语法
 
+```json
+{
+  "Print to console": {
+    "prefix": "log",
+    "body": [
+      "console.log('$1')",
+      "$2"
+		],
+    "description": "Log output to console"
+  }
+}
+
+
+```
+
 [CSS Peek](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
 [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
@@ -90,4 +105,9 @@ settings.json:
 
 [Project Manager](https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager)
 
+[Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
+
+[Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+
+[Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 
