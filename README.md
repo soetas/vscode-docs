@@ -111,3 +111,10 @@ settings.json:
 
 [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log)
 
+[Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
+
+[Hexdump](https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump)
+
+
+
+
