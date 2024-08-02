@@ -49,10 +49,11 @@ settings.json:
 
 ## 调试
 
-配置文件(launch.json):
+配置文件(launch.json & tasks.json):
 
 ```json5
 {
+  "version":"0.2.0",
   "configurations": [
     {
       "name": "Launch Program",
@@ -65,6 +66,27 @@ settings.json:
     }
   ]
 }
+
+```
+
+```json
+{
+  "version":"2.0.0",
+  "tasks":[
+	
+  ]	
+}
+
+```
+
+## 终端
+
+> Shell和TTY(Teletypewriter, 电传打字机)
+
+```sh
+echo %PATH%
+
+clang++ main.cpp -o main
 
 ```
 
