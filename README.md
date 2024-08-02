@@ -115,6 +115,7 @@ settings.json:
 
 [Hexdump](https://marketplace.visualstudio.com/items?itemName=slevesque.vscode-hexdump)
 
+[Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volarjs-labs)
 
 
 
