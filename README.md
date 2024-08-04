@@ -97,6 +97,7 @@ clang++ main.cpp -o main
 ```json
 {
   "Print to console": {
+    "scope":"javascript,typescript",
     "prefix": "log",
     "body": [
       "console.log('$1')",
